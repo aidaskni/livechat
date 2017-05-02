@@ -1,0 +1,59 @@
+// Fonts
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);
+// Variables
+@import "variables";
+// Bootstrap
+@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+
+.form-control {
+  border-radius: 0;
+}
+
+.btn {
+  border-radius: 0;
+}
+
+#chat-window {
+  display: none;
+}
+
+#chat-start-form-header{
+
+}
+
+.chat-log {
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.hide-minus {
+  left: 210px;
+}
+
+#chat-start-form-container {
+  display: none;
+  border-radius: 0;
+  position: fixed;
+  bottom: 0px;
+  right: 80px;
+  z-index: 1999;
+  width: 250px;
+  background-color: #d5d7d9;
+  padding: 10px;
+}
+
+#chat-start-form-container > input {
+  border-radius: 0;
+}
+
+#chat-button a {
+  display: block;
+  background-color: rgba(190, 77, 75, 0.86);
+  bottom: 0px;
+  color: #fff;
+  cursor: pointer;
+  padding: 15px;
+  position: fixed;
+  right: 80px;
+  z-index: 1999;
+}

@@ -1,0 +1,17 @@
+{
+    "name": "aidaskni/supportchat",
+    "description": "Live web support chat package",
+    "type": "package",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Aidas",
+            "email": "knsitautasaidas@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "repositories": {
+        
+    }
+}
